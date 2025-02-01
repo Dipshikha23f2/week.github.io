@@ -1,10 +1,9 @@
-main.yml
 name: Test Action
 
 on:
   push:
     branches:
-      - main  # or any branch you want to trigger the action
+      - main
 
 jobs:
   test:
